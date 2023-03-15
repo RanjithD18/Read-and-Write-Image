@@ -68,31 +68,30 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-<br>
 ![](https://github.com/RanjithD18/Read-and-Write-Image/blob/main/1.png)
-<br>
+
 
 ### ii)Write the image
 
-<br>
+
 ![](https://github.com/RanjithD18/Read-and-Write-Image/blob/main/2.png)
-<br>
+
 
 ### iii)Shape of the Image
 
-<br>
+
 ![](https://github.com/RanjithD18/Read-and-Write-Image/blob/main/3.png)
-<br>
+
 
 ### iv)Access rows and columns
-<br>
+
 ![](https://github.com/RanjithD18/Read-and-Write-Image/blob/main/4.png)
-<br>
+
 
 ### v)Cut and paste portion of image
-<br>
+
 ![](https://github.com/RanjithD18/Read-and-Write-Image/blob/main/5.png)
-<br>
+
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
