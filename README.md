@@ -19,37 +19,49 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
+### Developed By:Ranjith D
+### Register Number:212221240044
 i) #To Read,display the image
 ```
-  
-
+import cv2
+c=cv2.imread("test.jpg",1)
+cv2.imshow("212221240044(Ranjith D)",c)
+cv2.waitKey(0)
 ```
 ii) #To write the image
 ```
-
-
-
+import cv2
+c=cv2.imread("test.jpg",1)
+cv2.imwrite("1.jpg",c)
+cv2.imshow("212221240044(Ranjith D)",c)
+cv2.waitKey(0)
 ```
 iii) #Find the shape of the Image
-```python3
-
-
-
+```
+import cv2
+c=cv2.imread('test.jpg',1)
+print(c.shape)
 ```
 iv) #To access rows and columns
 
-```python3
-
-
-
+```
+import random
+import cv2
+c=cv2.imread("test.jpg",1)
+for i in range(100):
+    for j in range(c.shape[1]):
+        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212221240044(Ranjith D)",c)
+cv2.waitKey(0)
 ```
 v) #To cut and paste portion of image
-```python3
-
-
-
+```
+import cv2
+c=cv2.imread("photo.jpg",1)
+tag=c[20:100,20:100]
+c[90:170,90:170]=tag
+cv2.imshow("212221240044(Ranjith D)",c)
+cv2.waitKey(0)
 ```
 
 ## Output:
